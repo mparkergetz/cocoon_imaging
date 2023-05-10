@@ -5,7 +5,6 @@ import os
 import re
 import json
 
-
 cam = Picamera2()
 cam_config = cam.create_still_configuration(main = {'size': (1920, 1080)}, lores = {'size': (640, 480)}, display = 'lores')
 cam.configure(cam_config)
